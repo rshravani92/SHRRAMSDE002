@@ -10,6 +10,7 @@ Instructions to run the program
 The program can be imported as new project in IDE like PyCharm to be executed
 To get the list of required quotes, the user have to provide valid login credentials. If not existing user, can sign up in following link
 https://www.goodreads.com/
+The user should also provide the author name to get the quotes. In this case “Mark Twain”
 Design Assumptions
 The basic assumptions are: 
 1.	The user is already a member of Goodreads with valid user credentials
