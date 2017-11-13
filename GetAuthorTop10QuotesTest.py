@@ -10,7 +10,7 @@ class MyTestCase(unittest.TestCase):
     # checking for null user name and null password
     def test_authentication_valid_credentials(self):
         from GetAuthorTop10Quotes import validateUserCredentials
-        testOutput = validateUserCredentials('http://www.goodreads.com', "shravsramisetty@gmail.com", "chinnari92")
+        testOutput = validateUserCredentials('http://www.goodreads.com', "abc@gmail.com", "abcdefg")
         self.assertEqual(testOutput,'valid')
 
     # checking for null user name
