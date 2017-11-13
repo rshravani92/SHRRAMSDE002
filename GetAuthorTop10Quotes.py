@@ -1,4 +1,9 @@
 # program to get top 10 quotes of Mark Twain from Goodreads
+#
+# Author : Shravani Ramisetty
+# Dated : 11/12/2017
+#
+
 import datetime
 from robobrowser import RoboBrowser
 from bs4 import BeautifulSoup
